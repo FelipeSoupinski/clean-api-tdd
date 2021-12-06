@@ -1,5 +1,4 @@
-import HttpRequest from '@/domain/http-request'
-import HttpResponse from '@/domain/http-response'
+import { HttpRequest, HttpResponse } from '@/presentation/protocols'
 
 export class SignupController {
   handle (httpRequest: HttpRequest): HttpResponse {
