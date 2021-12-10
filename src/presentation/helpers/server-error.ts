@@ -1,5 +1,5 @@
-import { HttpResponse } from '@/presentation/protocols'
-import { ServerError } from '@/presentation/errors'
+import { HttpResponse } from '../protocols'
+import { ServerError } from '../errors'
 
 export const serverError = (): HttpResponse =>
   ({
